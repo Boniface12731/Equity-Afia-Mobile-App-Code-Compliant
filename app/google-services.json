@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347835850047",
+    "firebase_url": "https://afia-equity-default-rtdb.firebaseio.com",
+    "project_id": "afia-equity",
+    "storage_bucket": "afia-equity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347835850047:android:a3823d5fab5ccc482dc78a",
+        "android_client_info": {
+          "package_name": "com.osukastudios.equityafia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347835850047-j0f401s9hnoo0tguq6bshka3hdtur1oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhZRSaOdbFQCbFRxOGm_FdOYXaS514sHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347835850047-j0f401s9hnoo0tguq6bshka3hdtur1oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

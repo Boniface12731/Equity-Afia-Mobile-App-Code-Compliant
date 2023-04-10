@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Activity.ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFC107"
+        android:id="@+id/settingsToolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change profile image"
+                android:textColor="#701C02"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile_image"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/profileImage" />
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Full Name"
+                android:background="@drawable/inputs_design"
+                android:padding="10dp"
+                android:textColor="#FB9703"
+                android:textColorHint="#FB9703"
+                app:boxStrokeColor="#FB0303"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_profile"
+                android:drawablePadding="10dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Enter email here"
+                android:textColor="#FB9703"
+                android:textColorHint="#FB9703"
+                app:boxStrokeColor="#FB0303"
+                android:inputType="textEmailAddress"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs_design"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_mail"
+                android:drawablePadding="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Enter phone number here"
+                android:textColor="#FB9703"
+                android:textColorHint="#FB9703"
+                app:boxStrokeColor="#FB0303"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs_design"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_phone"
+                android:drawablePadding="10dp"
+                />
+            <EditText
+                android:id="@+id/idnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Enter ID number here"
+                android:textColor="#FB9703"
+                android:textColorHint="#FB9703"
+                app:boxStrokeColor="#FB0303"
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs_design"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_number"
+                android:drawablePadding="10dp"/>
+
+            <EditText
+                android:id="@+id/employeeNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Enter employee number here"
+                android:textColor="#FB9703"
+                android:textColorHint="#FB9703"
+                app:boxStrokeColor="#FB0303"
+                android:inputType="number"
+                android:layout_margin="10dp"
+                android:background="@drawable/inputs_design"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:drawableStart="@drawable/ic_number"
+                android:drawablePadding="10dp"/>
+
+
+            <Spinner
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/availabilitySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:popupBackground="#fff"
+                android:entries="@array/timeframes"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <Spinner
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/departmentSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:popupBackground="#fff"
+                android:entries="@array/departments"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+            <Spinner
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/specialistSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:popupBackground="#fff"
+                android:entries="@array/specialists"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/updateDetailsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Details"
+                android:textAllCaps="false"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttons2"
+                android:textSize="18sp"
+                android:textColor="#ffffff"
+                />
+
+            <TextView
+                android:id="@+id/backButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="#FF9800"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Equity Afia</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="the_equity_afia_application_has_been_designed_to_aid_in_the_booking_of_appointments_at_preferred_dates_and_times_by_patients_from_the_comfort_of_their_current_locations_n_this_reduces_the_time_that_is_spent_by_patients_in_queing_as_they_awaut_to_see_the_doctor_nfurthermore_the_application_will_also_help_doctors_to_be_able_to_view_the_appointrments_scheduled_for_them_and_the_time_that_they_are_due_from_the_comfort_of_their_mobile_phones_n_making_management_of_the_system_much_easier_from_their_end_in_addition_to_that_the_patients_are_also_notified_when_their_appointemts_are_due_in_bid_to_remind_them_so_that_the_appointmets_dont_have_to_be_rescheduled_everytime_by_the_receptionist">The Equity Afia application has been designed to aid in the booking of appointments at preferred dates and times by patients from the comfort of their current locations.\n This reduces the time that is spent by patients in queing as they awaut to see the doctor. \nFurthermore, the application will also help doctors to be able to view the appointrments scheduled for them and the time that they are due from the comfort of their mobile phones\n making management of the system much easier from their end. In addition to that, the patients are also notified when their appointemts are due in bid to remind them so that the appointmets dont have to be rescheduled everytime by the receptionist.</string>
+    <string name="string1">To champion Affordable and Accessible healthcare in Africa</string>
+    <string name="string2">We provide access to inclusive Quality Healthcare to enable our people lead productive lives</string>
+    <string name="string3"> C – Caring
+                            H – Honesty and Trust
+                            A – Accountability
+                            M – Mutual Respect
+                            P – Professional Ethics
+                            I – Integrity
+                            O – Optimum Quality
+                            N – Non-Maleficence (Do No Harm)
+    </string>
+    <string name="string4">Equity Afia is a sustainable, integrated health model that is using franchising principles to train and monitor a network of Medical-Entrepreneurs to provide standardized, quality and affordable healthcare services throughout Kenya. Equity Afia plans to provide comprehensive outpatient services through an estimated 300 outpatient health facilities over the next few years. Our main goal is to ensure sustained improvement of the health and well-being of Kenyans by increasing access to and utilization of quality, affordable and standardized healthcare.</string>
+    <string name="string5">We are a group of qualified and experienced doctors who have come together as a network of medical entrepreneurs with the aim of providing high quality, affordable and accessible healthcare to the majority of Kenyans. Meet our able team on ground to serve you.</string>
+    <string name="string6">Dr. Kevin Murage, MB,ChB (UON), Master of Internal Medicine – University of Nairobi Equity Afia Kawangware Medical Centre</string>
+    <string-array name="timeframes">
+        <item>Select Time You Are Available</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-1 PM</item>
+        <item>2-4 PM</item>
+        <item>4-6 PM</item>
+    </string-array>
+    <string-array name="departments">
+        <item>Select Department Here</item>
+        <item>Dentistry</item>
+        <item>Surgery</item>
+    </string-array>
+    <string-array name="specialists">
+        <item>Select Specialist Here</item>
+        <item>General</item>
+        <item>Periodontist</item>
+    </string-array>
+    <string-array name="branches">
+        <item>Select Branch</item>
+        <item>UpperHill</item>
+        <item>Eastleigh</item>
+    </string-array>
+    <string-array name="subject">
+        <item>Select Subject</item>
+        <item>Maths</item>
+        <item>English</item>
+        <item>Kiswahili</item>
+        <item>Science</item>
+        <item>Social Studies</item>
+        <item>CRE</item>
+        <item>IRE</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="location">
+        <item>Select Location</item>
+        <item>Mombasa</item>
+        <item>Nairobi</item>
+        <item>Kisumu</item>
+        <item>Nakuru</item>
+    </string-array>
+    <string-array name="tscnumber">
+        <item>TSC Number</item>
+        <item>TSC Number Compulsory</item>
+        <item>TSC Number Not Compulsory</item>
+    </string-array>
+    <string-array name="levels">
+        <item>Select Level</item>
+        <item>Primary School</item>
+        <item>Secondary School</item>
+    </string-array>
+
+    <string name="coffee_25_title">Brazilian Coffee</string>
+    <string name="coffee_25_desc">In Brazil, they love coffee, they don\’t just adore it. The average Brazilian drinks up to 12 cups of coffee a day and therefore the technology of making coffee in Brazil is perfect. In Brazil, just a cup of hot coffee is a symbol of respect and hospitality.</string>
+
+    <string name="coffee_26_title">Italian Coffee</string>
+    <string name="coffee_26_desc">Italians love coffee and, by the way, the first espresso machine was invented in Italy. In Italy, there are many recipes for making coffee, but we\’ll stop at the most common one.</string>
+
+    <string name="coffee_27_title">Coffee with pepper</string>
+    <string name="coffee_27_desc">At first glance, this is not a suitable spice for coffee, which can spoil the drink, but it is only at first glance. In fact, pepper gives a highlight to this aromatic and tasty drink and only allows you to open new impressions.</string>
+
+    <string name="coffee_28_title">Spicy Pumpkin Latte</string>
+    <string name="coffee_28_desc">Many coffee lovers in the fall enjoy spicy pumpkin latte, but if you want to save or make this drink out of season, you can easily make it at home. Drink can be made on the stove or in the microwave.</string>
+
+    <string name="coffee_29_title">Indian Coffee</string>
+    <string name="coffee_29_desc">Indian cuisine is famous for its abundance of spices and spices. Coffee drink, popular in this country, is no exception.</string>
+    <string name="equity_afia">Equity Afia</string>
+    <string name="mission">We provide access to inclusive Quality Healthcare to enable our people lead productive lives</string>
+
+    <string name="screen1">Book Appointments</string>
+    <string name="screen2">Order Medicine</string>
+    <string name="screen3">Locate Branches</string>
+
+    <string name="screen1desc">Get In Touch with your Doctor From the Comfort of Your
+    Home </string>
+    <string name="screen2desc">Place an order for your prescribed medicine and it will be deivered
+      to you</string>
+    <string name="screen3desc">Find the Equity Afia Branches that are closest to you</string>
+    <string name="startDesc">Get Your Medical Services  with convenience and affordability</string>
+</resources>

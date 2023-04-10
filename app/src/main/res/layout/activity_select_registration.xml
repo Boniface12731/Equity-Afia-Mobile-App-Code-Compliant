@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.SelectRegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/neweafia"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"/>
+        <TextView
+            android:id="@+id/title"
+            android:text="Hello there, welcome to hospital system application!"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/slogan"
+            android:text="Select Option"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/patientRegBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patient Registration"
+                android:textAllCaps="false"
+                android:background="@drawable/buttons2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/doctorRegBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doctor Registration"
+                android:textAllCaps="false"
+                android:background="@drawable/buttons2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:id="@+id/selectRegPageQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already registered? Sign in here"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF9800"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="17sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
