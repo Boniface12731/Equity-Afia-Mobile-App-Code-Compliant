@@ -8,6 +8,7 @@
     android:paddingLeft="20dp"
     android:paddingTop="5dp"
     android:layout_height="210dp">
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/nav_header_user_image"
         android:layout_width="95dp"

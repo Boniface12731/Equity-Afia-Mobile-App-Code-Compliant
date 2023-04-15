@@ -12,7 +12,6 @@ import com.osukastudios.mobileafia.R;
 
 public class Location extends AppCompatActivity{
     private Toolbar settingsToolbar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +28,13 @@ public class Location extends AppCompatActivity{
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         MyMovieData[] myMovieData = new MyMovieData[]{
-                new MyMovieData("UpperHill", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Roysambu", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Westlands", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Moi Avenue", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Kangemi", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Eastleigh", "Equity Afia Medical Centre", R.drawable.applogo),
-                new MyMovieData("Nyali", "Equity Afia Medical Centre", R.drawable.applogo),
+                new MyMovieData("UpperHill", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Roysambu", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Westlands", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Moi Avenue", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Kangemi", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Eastleigh", "Equity Afia Medical Centre", R.drawable.equityafialogo),
+                new MyMovieData("Nyali", "Equity Afia Medical Centre", R.drawable.equityafialogo),
         };
         MyMovieAdapter myMovieAdapter = new MyMovieAdapter(myMovieData,Location.this);
         recyclerView.setAdapter(myMovieAdapter);

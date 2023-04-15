@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private DatabaseReference reference, userRef;
     private RecyclerView recyclerViewId;
     private FloatingActionButton fab;
+    private FloatingActionButton fabChem;
     private TextView postIdeaTextView;
     private ProgressBar progress_circular;
     private AppointmentAdapter appointmentAdapter;
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView = findViewById(R.id.nav_view);
         fab = findViewById(R.id.fab);
+        fabChem = findViewById(R.id.fabChemist);
         postIdeaTextView = findViewById(R.id.postIdeaTextView);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(MainActivity.this,
@@ -162,6 +164,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MakeAppointmentActivity.class);
+                startActivity(intent);
+            }
+        });
+        fabChem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Chemist.class);
                 startActivity(intent);
             }
         });

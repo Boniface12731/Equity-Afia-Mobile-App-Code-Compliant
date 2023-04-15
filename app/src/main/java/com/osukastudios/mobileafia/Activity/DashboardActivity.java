@@ -70,7 +70,7 @@ public class DashboardActivity extends AppCompatActivity {
         online.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DashboardActivity.this, OnlineDoctor.class);
+                Intent intent = new Intent(DashboardActivity.this,  RetrieveDataInRecyclerView.class);
                 startActivity(intent);
             }
         });
@@ -78,10 +78,10 @@ public class DashboardActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case android.R.id.home:
+                case android.R.id.home:
                 finish();
                 return true;
-            default:
+                default:
                 return super.onOptionsItemSelected(item);
         }
     }

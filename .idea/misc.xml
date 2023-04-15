@@ -6,20 +6,22 @@
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/buttons2.xml" value="0.152" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/buttons3.xml" value="0.140625" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/layout_bg.xml" value="0.140625" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/order_layout.xml" value="0.140625" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/round_back_red10.xml" value="0.140625" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/drawable/roundbackbrown.xml" value="0.125" />
-        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout-v21/movie_item_list.xml" value="0.136" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout-v21/movie_item_list.xml" value="0.152" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_about_app.xml" value="0.12" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_admin_login.xml" value="0.144" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_all_app_users.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_assign_doctor_to_patient.xml" value="0.128" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_branch_patients.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_careers.xml" value="0.128" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_chemist.xml" value="0.144" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_dashboard.xml" value="0.176" />
-        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_doctor_registration.xml" value="0.176" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_doctor_registration.xml" value="0.152" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_doctors.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_forgot_password.xml" value="0.16" />
-        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_get_started.xml" value="0.16" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_get_started.xml" value="0.128" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_grid_item.xml" value="0.136" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_insurance.xml" value="0.11200000000000002" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_location.xml" value="0.152" />
@@ -28,12 +30,13 @@
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_main2.xml" value="0.12447916666666667" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_make_appointment.xml" value="0.176" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_navigation.xml" value="0.128" />
-        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_news.xml" value="0.1" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_news.xml" value="0.16" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_notifications.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_online_doctor.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_patient_registration.xml" value="0.144" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_patients.xml" value="0.10400000000000001" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_profile.xml" value="0.16" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_retrieve_data_in_recycler_view.xml" value="0.16799999999999998" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_select_registration.xml" value="0.16" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_services.xml" value="0.10400000000000001" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/activity_splash_screen.xml" value="0.152" />
@@ -41,6 +44,7 @@
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/all_users_display_layout.xml" value="0.12447916666666667" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/appointments_retrieved_layout.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/assigment_layout.xml" value="0.176" />
+        <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/design_row_for_recyclerview.xml" value="0.144" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/grid_item.xml" value="0.128" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/header.xml" value="0.1" />
         <entry key="..\:/MOBILEAPPS/MobileAfia/app/src/main/res/layout/informationresource.xml" value="0.12447916666666667" />

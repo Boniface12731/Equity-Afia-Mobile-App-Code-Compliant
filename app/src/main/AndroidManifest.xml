@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileAfia">
         <activity
+            android:name=".Activity.RetrieveDataInRecyclerView"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.Chemist"
+            android:exported="true" />
+        <activity
             android:name=".Activity.GridItemActivity"
             android:exported="true" />
         <activity
